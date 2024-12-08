@@ -172,7 +172,7 @@ body {
 }
 
 .if {
-    margin-top: 27%;
+    margin-top: 35%;
 }
 
 .text1 {
@@ -330,22 +330,22 @@ body {
     font-family: 'MontserratARM', Arial, sans-serif;
     font-weight: 600;
     color: #000000;
-    margin-top: -48.5%;
+    margin-top: -33.5%;
     margin-right: 15%;
     text-align: center;
     font-size: 24px;
 }
 
 .hours2 {
-    margin-top: 13.5%;
+    margin-top: 9.5%;
 }
 
 .hours3 {
-    margin-top: 13.5%;
+    margin-top: 10.5%;
 }
 
 .hours4 {
-    margin-top: 13.5%;
+    margin-top: 10.4%;
 }
 
 .Text_Block {
@@ -353,8 +353,8 @@ body {
 }
 
 .plans {
-    margin-top: 8.8%;
-    margin-left: 33%;
+    margin-top: 16.8%;
+    margin-left: 31%;
     text-align: center;
     font-size: 24px;
 }
@@ -374,11 +374,11 @@ body {
     font-weight: 600;
     color: #000000;
     margin-top: 10px;
-    margin-right: 20%;
+    margin-right: 14%;
 }
 
 .plans2 {
-    margin-top: 8.8%;
+    margin-top: 7%;
     margin-left: 33%;
     text-align: center;
 }
@@ -399,12 +399,12 @@ body {
     font-weight: 600;
     color: #000000;
     margin-top: 10px;
-    margin-right: 0.5%;
+    margin-right: 4.5%;
 }
 
 .plans3 {
-    margin-top: 8.8%;
-    margin-left: 33%;
+    margin-top: 6.8%;
+    margin-left: 31%;
     text-align: center;
 }
 
@@ -414,7 +414,7 @@ body {
     font-family: 'MontserratARM', Arial, sans-serif;
     font-weight: 600;
     color: #000000;
-    margin-right: 3.2%;
+    margin-right: 5%;
 }
 
 .home3 {
@@ -428,8 +428,8 @@ body {
 }
 
 .plans4 {
-    margin-top: 8.8%;
-    margin-left: 33%;
+    margin-top: 6.8%;
+    margin-left: 31%;
     text-align: center;
 }
 
@@ -439,7 +439,7 @@ body {
     font-family: 'MontserratARM', Arial, sans-serif;
     font-weight: 600;
     color: #000000;
-    margin-left: 14%;
+    margin-left: 7%;
 }
 
 .home4 {
@@ -691,7 +691,7 @@ body {
 
 .input_block2 {
     text-align: center;
-    margin-right: 34.6%;
+    margin-right: 36%;
     margin-top: -16%;
 }
 
@@ -706,27 +706,36 @@ body {
     color: grey;
 }
 
-.name {
-    margin-left: 27%;
-    margin-top: 20px;
-    color: grey;
-    width: 300px;
-    height: 30px;
-    border: 0px solid green;
-}
-
 .LineBlock11 {
     display: flex;
     justify-content: center;
+    margin-top: 20px; /* Отступ сверху */
+    margin-right: 23%;
 }
 
 .Line11 {
+    position: relative; /* Для позиционирования input внутри */
     width: 435px;
-    height: 1px;
-    background-color: gray;
-    margin-top: 20px;
-    margin-right: 14%;
+    height: 40px; /* Увеличиваем высоту для размещения input */
+    background-color: #f0f0f0; /* Цвет фона линии */
+    border: 1px solid gray; /* Серая рамка для линии */
+    border-radius: 20px; /* Закругленные края */
+    display: flex;
+    align-items: center; /* Центрируем input по вертикали */
+    padding: 0 10px; /* Внутренние отступы */
 }
+
+.name {
+    width: 100%; /* Занимает всю ширину контейнера */
+    height: 100%; /* Высота совпадает с высотой .Line11 */
+    border: none; /* Убираем стандартные границы */
+    outline: none; /* Убираем подсветку при фокусе */
+    background-color: transparent; /* Прозрачный фон */
+    font-size: 14px; /* Размер текста */
+    color: grey; /* Цвет текста */
+    padding-left: 5px; /* Отступ текста внутри input */
+}
+
 
 .Line_Gic {
     border: 1px solid black;
